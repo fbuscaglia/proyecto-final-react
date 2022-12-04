@@ -1,0 +1,397 @@
+/* html {
+    background-color: black;
+} */
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: local('Arial');
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0004;
+    scroll-behavior: smooth;
+}
+
+
+/* NavBar */
+
+.fondo {
+    background-color: rgba(3, 3, 3, 255);
+}
+
+.navlink {
+    color: #ffffff !important;
+    background-color: rgba(3, 3, 3, 255)
+}
+
+.navlink1 {
+    color: #000000 !important;
+    background-color: rgba(3, 3, 3, 255)
+}
+
+#basic-nav-dropdown {
+    color: #ffffff;
+    background-color: rgba(3, 3, 3, 255)
+}
+
+.gif {
+    height: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+}
+
+.logo-carrito {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.bienvenida {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.button-div {
+    display: flex;
+    margin-top: 30px;
+}
+
+.button-div button {
+    padding: 10px;
+}
+
+.button-div p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-width: 2px;
+}
+
+
+/* PRODUCTOS */
+
+.glasses {
+    display: block;
+    background-color: rgb(93, 91, 91);
+    border: #555556 solid 1px;
+    border-radius: 2px;
+    border-color: black;
+    background: 'https: //streamable.com/ng2rji';
+}
+
+.glasses .glasses_box {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+
+.glasses .glasses_box p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.glasses img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.glasses button {
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: rgb(53, 53, 53);
+}
+
+.nombre {
+    padding-top: 30px;
+}
+
+.botondetalle {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/* ITEM DETAIL */
+
+.item-detail {
+    background-color: rgb(93, 91, 91);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.item-detail p {
+    color: #ffffff;
+}
+
+.item-detail img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.home {
+    background-color: black;
+}
+
+
+.cart-number {
+    color: white;
+}
+
+.boton-comprar {
+    margin-left: 10px;
+}
+
+.iralcarrito {
+    color: rgb(255, 255, 255);
+    background: rgb(24, 24, 24);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.seguircomprando {
+    color: rgb(255, 255, 255);
+    background: rgb(14, 14, 14);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+/* CART */
+
+
+
+.div-cart {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.titulos-cart {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.precio-producto {
+    color: #ffffff;
+}
+
+.cantidad-producto {
+    color: #ffffff;
+    margin-top: -15px;
+}
+
+.imagen-cart {
+    width: 200px;
+    height: 200px;
+}
+
+.eliminar-item {
+    display: block;
+    width: 30px;
+    color: rgb(24, 24, 24);
+    background: rgb(145, 77, 77);
+}
+
+
+.cart-number {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.foto-cart {
+    width: 40px;
+    height: 40px;
+}
+
+.precioTotal {
+    color: white;
+    font-size: 20px;
+}
+
+.mensaje {
+    color: rgb(255, 255, 255);
+}
+
+.mensaje-back {
+    background-color: #b0b0b0;
+}
+
+.finalizar-compra {
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgb(14, 14, 14);
+    border-radius: 10px;
+}
+
+
+.nohayproductos {
+    background-color: #000;
+    color: #fff;
+    height: 200px;
+    padding-top: 3 0px;
+    padding-left: 5px;
+}
+
+/* form */
+
+.div {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.botonform {
+    margin-left: 45%;
+}
+
+/* BACKGROUND */
+
+#video {
+    position: fixed;
+    z-index: -1;
+    contain: content;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+/* FOOTER */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(84, 84, 84, 0.5998774509803921) 100%, rgb(93, 91, 91) 100%);
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    /* box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.363); */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #fff;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.githublogo {
+    margin-right: 12px;
+}
+
+
+
+.form {
+    background-color: rgb(130, 130, 130);
+    height: 600px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+.formcheck {
+    background-color: #d8cdcd;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.mensajecompra {
+    color: #fcfcfc;
+    margin-top: -80px;
+    margin-left: 5px;
+}
